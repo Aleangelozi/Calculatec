@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalculatorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtVisor"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#778899"
+            android:gravity="end"
+            android:text="@string/operandos"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/tamanho_texto_visor"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/estiloBotoesOutros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickOperacoes"
+            android:text="@string/button"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/estiloBotoesOutros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickOperacoes"
+            android:text="@string/button2"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/estiloBotoesOutros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickOperacoes"
+            android:text="@string/button3"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/estiloBotoesOperacoes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickOperacoes"
+            android:text="@string/button4"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/estiloBotoesNumeros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickNumeros"
+            android:text="@string/button5"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/estiloBotoesNumeros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickNumeros"
+            android:text="@string/button6"
+            android:textSize="@dimen/tamanho_texto_botoes"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/estiloBotoesNumeros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickNumeros"
+            android:text="@string/button7"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/estiloBotoesOperacoes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickOperacoes"
+            android:text="@string/button8"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/estiloBotoesNumeros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickNumeros"
+            android:text="@string/button9"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/estiloBotoesNumeros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickNumeros"
+            android:text="@string/button10"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/estiloBotoesNumeros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickNumeros"
+            android:text="@string/button11"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/estiloBotoesOperacoes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickOperacoes"
+            android:text="@string/button12"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button13"
+            style="@style/estiloBotoesNumeros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickNumeros"
+            android:text="@string/button13"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button14"
+            style="@style/estiloBotoesNumeros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickNumeros"
+            android:text="@string/button14"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button15"
+            style="@style/estiloBotoesNumeros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickNumeros"
+            android:text="@string/button15"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button16"
+            style="@style/estiloBotoesOperacoes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickOperacoes"
+            android:text="@string/button16"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button17"
+            style="@style/estiloBotoesOutros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickOperacoes"
+            android:text="@string/button17"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button18"
+            style="@style/estiloBotoesNumeros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickNumeros"
+            android:text="@string/button18"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button19"
+            style="@style/estiloBotoesOutros"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickOperacoes"
+            android:text="@string/button19"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button20"
+            style="@style/estiloBotoesOperacoes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onClickOperacoes"
+            android:text="@string/button20"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+    </LinearLayout>
+</LinearLayout>

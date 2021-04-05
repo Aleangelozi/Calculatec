@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Calculatec</string>
+    <string name="operandos">0123456789</string>
+    <string name="button">C</string>
+    <string name="button2">+/-</string>
+    <string name="button3">%</string>
+    <string name="button4">÷</string>
+    <string name="button5">7</string>
+    <string name="button6">8</string>
+    <string name="button7">9</string>
+    <string name="button8">x</string>
+    <string name="button9">4</string>
+    <string name="button10">5</string>
+    <string name="button11">6</string>
+    <string name="button12">-</string>
+    <string name="button13">1</string>
+    <string name="button14">2</string>
+    <string name="button15">3</string>
+    <string name="button16">+</string>
+    <string name="button17">i</string>
+    <string name="button18">0</string>
+    <string name="button19">,</string>
+    <string name="button20">=</string>
+</resources>
